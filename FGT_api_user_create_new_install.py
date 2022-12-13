@@ -7,8 +7,7 @@ from re import search
 from getpass import getpass
 import logging
 
-passwd = "Danni1993!"
-#host = "10.20.20.14"
+passwd = "YOURPASSORD"
 user = "admin"
 
 accprofile_name = 'API-USER'
@@ -147,4 +146,4 @@ def start_tunnel (host):
 		logging.info("Not responding or password already set")
 		#print(str(e))
 		
-start_tunnel("10.20.20.15")
+start_tunnel("10.1.1.1") # IP address of FGT
